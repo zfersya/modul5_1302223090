@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Numerics;
 
-Console.WriteLine("Hello, World!");
 
 namespace modul5_1302223090
 {
@@ -20,7 +19,8 @@ namespace modul5_1302223090
             long n1 = 12;
             long n2 = 34;
             long n3 = 56;
-            Penjumlahan<long>.JumlahTigaAngka(n1, n2, n3);
+            long hasil = Penjumlahan<long>.JumlahTigaAngka(n1, n2, n3);
+            Console.WriteLine(hasil);
         }
     }
 }
